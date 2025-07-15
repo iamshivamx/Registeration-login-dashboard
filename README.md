@@ -67,9 +67,7 @@ This project is a Week 1 task for a MERN Stack Internship to strengthen core fro
 
 ## 🚀 Live Demo
 
-🔗 **GitHub Pages URL**:  
-
-📂 **GitHub Repository**:  
+📂 **GitHub Repository**:  https://github.com/iamshivamx/Registeration-login-dashboard.git
 
 ---
 
