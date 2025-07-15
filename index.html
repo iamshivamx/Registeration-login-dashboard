@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Register</h2>
+    <form id="registerForm">
+      <input type="text" id="fullName" placeholder="Full Name" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+      <input type="text" id="phone" placeholder="Phone Number" required>
+      
+      <label>Gender:</label>
+      <label><input type="radio" name="gender" value="Male" required> Male</label>
+      <label><input type="radio" name="gender" value="Female"> Female</label>
+
+      <label>Date of Birth:</label>
+      <input type="date" id="dob" required>
+
+      <textarea id="address" placeholder="Address" required></textarea>
+
+      <select id="city" required>
+        <option value="">Select City</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Chennai">Chennai</option>
+      </select>
+
+      <label>Skills Known:</label>
+      <label><input type="checkbox" value="HTML" class="skill"> HTML</label>
+      <label><input type="checkbox" value="CSS" class="skill"> CSS</label>
+      <label><input type="checkbox" value="JS" class="skill"> JavaScript</label>
+
+      <label><input type="checkbox" id="terms" required> I accept the Terms</label>
+
+      <button type="submit">Register</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
