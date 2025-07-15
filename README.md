@@ -12,7 +12,7 @@ A mini web application built using **HTML, CSS, and JavaScript** that includes:
 
 ## 📚 Project Overview
 
-This project is a Week 1 task for a **MERN Stack Internship** to strengthen core frontend skills. It focuses on form validation, basic authentication logic, and client-side data storage.
+This project is a Week 1 task for a MERN Stack Internship to strengthen core frontend skills. It focuses on form validation, basic authentication logic, and client-side data storage.
 
 ---
 
